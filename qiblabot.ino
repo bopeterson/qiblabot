@@ -1,10 +1,12 @@
+/* 
+This is an Arduino sketch for the official Arduino Robot, http://arduino.cc/en/Main/Robot
+The robot points out the direction of Mecca.
+Two images, a_intro.bmp and allah.bmp must be transfered to the sd-card (although a_intro is not used at the moment).
+*/
+
 #include <ArduinoRobot.h>
-//malmö 138
-//lund 139
-//stockholm 148
-//london 119
-//paris 119
-//new york 58
+
+
 
 int key;
 int city;
