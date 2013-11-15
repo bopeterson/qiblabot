@@ -2,11 +2,12 @@
 This is an Arduino sketch for the official Arduino Robot, http://arduino.cc/en/Main/Robot
 The robot points out the direction of Mecca.
 Two images, a_intro.bmp and allah.bmp must be transfered to the sd-card (although a_intro is not used at the moment).
+
+license: Public domain
+
 */
 
 #include <ArduinoRobot.h>
-
-
 
 int key;
 int city;
@@ -15,7 +16,6 @@ boolean citySelected;
 int cityOrientation[]={138,139,148,119,119,58};
 char* cityName[]={"Malmo", "Lund", "Stockholm","London", "Paris","New York"};
 int noOfCities=6; //must match number of elements in city arrays
-
 
 void setup() {
   Robot.begin();
